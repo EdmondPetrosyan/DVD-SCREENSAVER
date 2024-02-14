@@ -1,20 +1,5 @@
-# bouncing screensaver dvd program
+# Fixed version of dvd screen saver from quasar098
+original project: https://github.com/quasar098/dvd-screensaver
 
-only for windows currently because linux has way too many display managers each of which are slightly different
-
-## how to run?
-
-install python (3.9 or above should be fine) from python.org, install dependencies using `pip install -r requirements.txt` in the command prompt, then run main.py
-
-## important
-
-- currently only works on the primary monitor
-- adapts to the primary monitor refresh rate to make it smooth
-
-## contributing
-
-open up a pull request with your changes
-
-## problems?
-
-open up an issue on github
+## How to run
+install python 3.9 or above from python.org or microsoft store, run `cd` then put the path name for the folder, install dependencies using `pip install -r requirements.txt` in the command prompt, if  `pip install -r requirements.txt` does not work run pip install `pip install --trusted-host=pypi.org --trusted-host=files.pythonhosted.org --user -r requirements.txt`, then run main.py

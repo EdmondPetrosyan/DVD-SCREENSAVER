@@ -1,11 +1,11 @@
-# noinspection PyPackageRequirements
 import pygame
 import win32api
 import win32con
-# noinspection PyPackageRequirements
 import win32gui
 import ctypes
+import pyautogui
 from ctypes import wintypes
+
 
 NOSIZE = 1
 NOMOVE = 2
@@ -18,8 +18,8 @@ colors = [(255, 131, 0), (255, 250, 1), (255, 0, 139), (0, 38, 255), (255, 38, 0
 
 # noinspection PyBroadException
 pic_width, pic_height = 320, 144
-screen_width, screen_height = 1920, 1080
-taskbar_height = 0  # if you dont want it over the taskbar change it to 40
+screen_width, screen_height = pyautogui.size()
+taskbar_height = 0
 
 flags = 0
 flags |= pygame.NOFRAME
